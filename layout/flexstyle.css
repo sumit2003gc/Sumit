@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background: rgb(12, 59, 46);
+    color: white;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-heading{
+    font-size: 71px;
+    font-weight: 700;
+    line-height: 77px;
+    margin-bottom: 20px;
+}
+
+.hero-sub-heading{
+    font-size: 29px;
+    line-height: 32px;
+    font-weight: normal;
+    margin-bottom: 80px;
+}
+
+.hero-date{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.hero-image{
+    height: 100%;
+}
+
+.hero-left{
+    padding: 60px;
+}
+
+.button{
+ font-size: 14px;   
+ font-weight: 500;
+ color: black;
+ background: rgb(255, 186, 0);
+ padding: 12px;
+ border-radius: 14px;
+ border: none;
+ outline: none;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.about-section{
+    background: rgb(109, 151, 115);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.about-section img{
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.about-heading{
+    font-size: 67px;
+    line-height: 73px;
+    max-width: 550px;
+}
+
+.about-paragraph{
+    font-size: 24px;
+    line-height: 33px;
+    max-width: 400px;
+}
+
+
+
+.people-section{
+    padding: 80px;
+    background-color: rgb(255, 186, 0);;
+}
+
+.people-heading{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 53px;
+    line-height: 58px;
+    font-weight: 700;
+}
+
+.people-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    /* max-width: 200px; */
+    text-align: center;
+}
+
+.card img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover
+    ;
+}
+
+.people-name{
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-date{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 28px;
+}
+
+.sponsor{
+    display: flex;
+    background: rgb(109, 151, 115);
+    color: white;
+}
+
+.sponsor-rightt{
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sponsor-heading{
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 73px;
+}
+
+.sponsor p{
+    font-size: 29px;
+    line-height: 50px;
+}
+
+
+.contact-section{
+    background: rgb(12, 59, 46);
+    color: white;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left{
+    padding: 40px;
+}
+
+.contact-heading{
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 73px;
+    margin-bottom: 60px;
+}
+
+.contact-phone{
+    margin-bottom: 40px;
+}
+
+.contact-address{
+    margin-bottom: 40px;
+}
+
+.contact-phone, .contact-address{
+    max-width: 200px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.contact img{
+    width: 400px;
+}
+
+.sponsor-image{
+	max-width: 400px;
+}
+
+.hero img{
+	max-width: 490px;
+}
+
+.people img{
+	max-width: 400px;
+}
+
+.canvq img{
+	max-width: 400px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background: rgb(12, 59, 46);
+    color: white;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-heading{
+    font-size: 71px;
+    font-weight: 700;
+    line-height: 77px;
+    margin-bottom: 20px;
+}
+
+.hero-sub-heading{
+    font-size: 29px;
+    line-height: 32px;
+    font-weight: normal;
+    margin-bottom: 80px;
+}
+
+.hero-date{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.hero-image{
+    height: 100%;
+}
+
+.hero-left{
+    padding: 60px;
+}
+
+.button{
+ font-size: 14px;   
+ font-weight: 500;
+ color: black;
+ background: rgb(255, 186, 0);
+ padding: 12px;
+ border-radius: 14px;
+ border: none;
+ outline: none;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.about-section{
+    background: rgb(109, 151, 115);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.about-section img{
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.about-heading{
+    font-size: 67px;
+    line-height: 73px;
+    max-width: 550px;
+}
+
+.about-paragraph{
+    font-size: 24px;
+    line-height: 33px;
+    max-width: 400px;
+}
+
+
+
+.people-section{
+    padding: 80px;
+    background-color: rgb(255, 186, 0);;
+}
+
+.people-heading{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 53px;
+    line-height: 58px;
+    font-weight: 700;
+}
+
+.people-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    /* max-width: 200px; */
+    text-align: center;
+}
+
+.card img{
+    width: 400px;
+}
+
+.people-name{
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-date{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 28px;
+}
+
+.sponsor{
+    display: flex;
+    background: rgb(109, 151, 115);
+    color: white;
+}
+
+.sponsor-rightt{
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sponsor-heading{
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 73px;
+}
+
+.sponsor p{
+    font-size: 29px;
+    line-height: 50px;
+}
+
+
+.contact-section{
+    background: rgb(12, 59, 46);
+    color: white;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left{
+    padding: 40px;
+}
+
+.contact-heading{
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 73px;
+    margin-bottom: 60px;
+}
+
+.contact-phone{
+    margin-bottom: 40px;
+}
+
+.contact-address{
+    margin-bottom: 40px;
+}
+
+.contact-phone, .contact-address{
+    max-width: 200px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.contact img{
+    width: 400px;
+}
+
+.sponsor-image{
+	max-width: 400px;
+}
+
+.hero img{
+	max-width: 490px;
+}
+
+.people img{
+	max-width: 400px;
+}
+
+.canvq img{
+	max-width: 400px;
+}
